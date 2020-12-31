@@ -3,3 +3,9 @@
 result_metrics/.ipynb_checkpoints
 models_s_vae/
 
+code/__pycache__/
+code/__pycache__/constants.cpython-38.pyc
+code/__pycache__/loss_functions.cpython-38.pyc
+
+.ipynb_checkpoints/
+code/.ipynb_checkpoints/
