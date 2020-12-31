@@ -1,0 +1,31 @@
+# # This is for the MLP of the conditioner
+# HIDDEN_DIM_BASE_MLP: 256
+
+# # This is for the MLPs of the flow
+# HIDDEN_DIM_SPLINE_MLP: 128
+# HIDDEN_DIM_MOEBIUS_MLP: 128
+# HIDDEN_DIM_ROTATION_MLP: 128
+
+# sample images via VAE
+NR_ROWS_TO_SAMPLE: 5
+
+### Set global variables
+H_DIM: 128
+Z_DIM: 5
+
+BATCH_SIZE: 256
+
+NUM_FLOWS: 2
+NUM_CENTERS: 8
+NUM_BINS: 16
+
+# training parameters
+epochs: 1
+eval_iter: 25
+test_set_eval_iter: 50
+# if there was no improvement after {lookahead} epochs terminate training process
+lookahead: 20 
+
+# optimizer parameters
+lr: 0.001
+weight_decay: 0.01 

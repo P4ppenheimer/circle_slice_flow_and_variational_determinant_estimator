@@ -1,0 +1,6 @@
+### Set global variables
+
+NUM_FLOWS: 1
+NUM_CENTERS: 1
+NUM_BINS: 32
+BATCH_SIZE: 32

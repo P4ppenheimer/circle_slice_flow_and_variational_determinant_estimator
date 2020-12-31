@@ -1,0 +1,14 @@
+# This is for the MLP of the conditioner
+HIDDEN_DIM_BASE_MLP = 128
+
+# # # Density fits
+# HIDDEN_DIM_ROTATION_MLP = 128
+# HIDDEN_DIM_SPLINE_MLP = 128
+# HIDDEN_DIM_MOEBIUS_MLP = 128
+
+# Variational Determinant Estimator
+HIDDEN_DIM_ROTATION_MLP = 64
+HIDDEN_DIM_SPLINE_MLP = 128
+HIDDEN_DIM_MOEBIUS_MLP = 64
+
+EPS = 1e-7

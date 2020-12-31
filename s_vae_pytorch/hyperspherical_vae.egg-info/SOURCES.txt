@@ -1,0 +1,13 @@
+README.md
+setup.py
+hyperspherical_vae/__init__.py
+hyperspherical_vae.egg-info/PKG-INFO
+hyperspherical_vae.egg-info/SOURCES.txt
+hyperspherical_vae.egg-info/dependency_links.txt
+hyperspherical_vae.egg-info/requires.txt
+hyperspherical_vae.egg-info/top_level.txt
+hyperspherical_vae/distributions/__init__.py
+hyperspherical_vae/distributions/hyperspherical_uniform.py
+hyperspherical_vae/distributions/von_mises_fisher.py
+hyperspherical_vae/ops/__init__.py
+hyperspherical_vae/ops/ive.py

@@ -1,0 +1,22 @@
+# data
+nr_mixtures: 4
+
+# train params 
+lr: 0.001
+weight_decay: 0.01
+BATCH_SIZE: 256
+
+iters_per_epoch : 400
+epochs: 20
+lookahead: 10
+
+eval_iter: 100
+# has to be multiple of eval_iter, otherwise get biased logging results with weights and biases
+print_iter: 10
+nr_datapoints_eval: 100000
+
+# define dataset type
+# dataset_type: 'poles_2' # alternative: 'poles'
+# dataset_type: 'poles_3' # alternative: 'poles'
+dataset_type: 'standard' # alternative: 'poles'
+
